@@ -1,0 +1,3838 @@
+﻿<ItemFile>
+  <VersionNumber>3.0.3.4</VersionNumber>
+  <Items>
+    <Item>
+      <Name>Abyssal Scepter</Name>
+      <ID>3001</ID>
+      <ImagePath>_3001_Abyssal_Scepter</ImagePath>
+      <Description>+70 Ability Power|+45 Magic Resist||Unique Aura: Reduces the Magic Resist of nearby enemy champions by 20. </Description>
+      <Statistics>
+        <AbilityPower>70</AbilityPower>
+        <MagicResist>45</MagicResist>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>980</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1026</d4p1:string>
+        <d4p1:string>1057</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Aura</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>MagicPen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Aegis of the Legion</Name>
+      <ID>3105</ID>
+      <ImagePath>_034_Steel_Shield</ImagePath>
+      <Description>+250 Health|+20 Armor|+20 Magic Resist||Unique Aura - Legion: Nearby allies gain 10 Armor, 15 Magic Resist and 10 Health Regen per 5. (Unique Auras with the same name don't stack.) </Description>
+      <Statistics>
+        <Armor>20</Armor>
+        <Health>250</Health>
+        <MagicResist>20</MagicResist>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>625</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3097</d4p1:string>
+        <d4p1:string>1028</d4p1:string>
+        <d4p1:string>1033</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Aura</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Amplifying Tome</Name>
+      <ID>1052</ID>
+      <ImagePath>_1052_Amplifying_Scepter</ImagePath>
+      <Description>+20 Ability Power</Description>
+      <Statistics>
+        <AbilityPower>20</AbilityPower>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>435</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Archangel's Staff</Name>
+      <ID>3003</ID>
+      <ImagePath>_3003_Archangels_Staff_of_Apocalypse</ImagePath>
+      <Description>+250 Mana|+50 Ability Power|+10 Mana Regen per 5 seconds||Unique Passive - Insight: Gain Ability Power equal to 3% of your Maximum Mana.||Unique Passive - Mana Charge: Each time you cast a spell or spend Mana, you gain 6 maximum Mana (3 second cooldown). Bonus caps at +750 Mana. This item transforms once it reaches +750 Mana, gaining a powerful mana shield active.</Description>
+      <Statistics>
+        <AbilityPower>50</AbilityPower>
+        <Mana>250</Mana>
+        <ManaRegen>2</ManaRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>1140</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3070</d4p1:string>
+        <d4p1:string>1026</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Athene's Unholy Grail</Name>
+      <ID>3174</ID>
+      <ImagePath>_3174_AthenesUnholyGrail</ImagePath>
+      <Description>+60 Ability Power|+40 Magic Resist|+15 Mana Regen per 5 seconds|+20% Cooldown Reduction||Unique Passive: Restores 12% of your max Mana on Kill or Assist.||Unique Passive - Mana Font: Increases your Mana Regen by 1% per 1% Mana you are missing. </Description>
+      <Statistics>
+        <AbilityPower>60</AbilityPower>
+        <MagicResist>40</MagicResist>
+        <ManaRegen>3</ManaRegen>
+				<Cooldown>.2</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>900</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3108</d4p1:string>
+        <d4p1:string>3028</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Atma's Impaler</Name>
+      <ID>3005</ID>
+      <ImagePath>_3005_Atmas_Impaler</ImagePath>
+      <Description>+45 Armor|+15% Critical Strike Chance||Unique Passive: Gain Attack Damage equal to 1.5% of your maximum Health. </Description>
+      <Statistics>
+        <Armor>45</Armor>
+        <CriticalStrikeChance>0.15</CriticalStrikeChance>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>780</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1031</d4p1:string>
+        <d4p1:string>3093</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>CriticalStrikeChance</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Augment: Death</Name>
+      <ID>3198</ID>
+      <ImagePath>_3198_AugmentE</ImagePath>
+      <Description>+3 Ability Power per level|+200 Health|+6 Health Regen per 5 seconds.||Ability Augment: Power Transfer increases Viktor's Movement Speed by 30% for 3 seconds. </Description>
+      <Statistics>
+        <AbilityPower>45</AbilityPower>
+      </Statistics>
+      <Mode>Any</Mode>
+      <RequiredChampion>Viktor</RequiredChampion>
+      <Cost>1000</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3200</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Augment: Gravity</Name>
+      <ID>3197</ID>
+      <ImagePath>_3197_AugmentW</ImagePath>
+      <Description>+3 Ability Power per level|+200 Mana|+10% Cooldown Reduction|+5 Mana Regen per 5 seconds.||Ability Augment: Gravity Field has an additional 30% cast range. </Description>
+      <Statistics>
+        <Mana>200</Mana>
+        <ManaRegen>1</ManaRegen>
+				<Cooldown>.1</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <RequiredChampion>Viktor</RequiredChampion>
+      <Cost>1000</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3200</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Augment: Power</Name>
+      <ID>3196</ID>
+      <ImagePath>_3196_AugmentQ</ImagePath>
+      <Description>+3 Ability Power per level|+200 Health|+6 Health Regen per 5 seconds.||Ability Augment: Power Transfer increases Viktor's Movement Speed by 30% for 3 seconds. </Description>
+      <Statistics>
+        <Health>220</Health>
+        <HealthRegen>1.2</HealthRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <RequiredChampion>Viktor</RequiredChampion>
+      <Cost>1000</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3200</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Avarice Blade</Name>
+      <ID>3093</ID>
+      <ImagePath>_3093_Avarice_Blade</ImagePath>
+      <Description>+10% Critical Strike Chance||Unique Passive - Avarice: Gain an additional 3 Gold every 10 seconds.||Unique Passive - Greed: Gain an additional 2 Gold every kill. </Description>
+      <Statistics>
+        <CriticalStrikeChance>0.1</CriticalStrikeChance>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>400</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1051</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>CriticalStrikeChance</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>B. F. Sword</Name>
+      <ID>1038</ID>
+      <ImagePath>_1038_BF_Sword</ImagePath>
+      <Description>+45 Attack Damage</Description>
+      <Statistics>
+        <Damage>45</Damage>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>1550</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Banner of Command</Name>
+      <ID>3060</ID>
+      <ImagePath>_3060_Banner_of_Command</ImagePath>
+      <Description>+40 Ability Power|+30 Armor|+10% cooldown reduction||Unique Aura - Valor: Nearby allies gain 10 Health Regen per 5 seconds and nearby allied minions deal 15% increased damage.||Unique Active - Promote: Transforms a nearby siege minion to a more powerful unit. You gain all the gold this unit earns - 180 second cooldown. </Description>
+      <Statistics>
+        <AbilityPower>40</AbilityPower>
+        <Armor>30</Armor>
+				<Cooldown>.1</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>890</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3108</d4p1:string>
+        <d4p1:string>3097</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Aura</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Banshee's Veil</Name>
+      <ID>3102</ID>
+      <ImagePath>_3059_Sindoran_Shielding_Amulet</ImagePath>
+      <Description>+400 Health|+375 Mana|+50 Magic Resist||Unique Passive: Gain a spell shield that blocks the next incoming enemy ability (45 second cooldown). </Description>
+      <Statistics>
+        <Health>300</Health>
+        <MagicResist>45</MagicResist>
+        <Mana>300</Mana>
+      </Statistics>
+			<Mode>SRTTPG</Mode>
+      <Cost>490</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1057</d4p1:string>
+        <d4p1:string>3010</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Berserker's Greaves</Name>
+      <ID>3006</ID>
+      <ImagePath>_3006_Berserkers_Greaves</ImagePath>
+      <Description>+20% Attack Speed||Unique Passive - Enhanced Movement: +45 Movement Speed </Description>
+      <Statistics>
+        <AttackSpeed>0.2</AttackSpeed>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>150</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1001</d4p1:string>
+        <d4p1:string>1042</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Berserker's Greaves - Enchantment: Alacrity</Name>
+      <ID>3254</ID>
+      <ImagePath>_3006_Berserkers_Greaves_E</ImagePath>
+      <Description>Enchants these boots to have the Alacrity bonus.||Unique Passive - Alacrity: +15 Movement Speed</Description>
+      <Statistics>
+        <AttackSpeed>0.2</AttackSpeed>
+        <Movespeed>60</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3006</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Berserker's Greaves - Enchantment: Captain</Name>
+      <ID>3251</ID>
+      <ImagePath>_3006_Berserkers_Greaves_C</ImagePath>
+      <Description>Enchants these boots to have the Captain bonus.||Unique Passive - Captain: Allied champions running towards you gain a 8% movement speed boost.  Nearby minions gain 25% additional movement speed.</Description>
+      <Statistics>
+        <AttackSpeed>0.2</AttackSpeed>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>750</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3006</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Berserker's Greaves - Enchantment: Distortion</Name>
+      <ID>3253</ID>
+      <ImagePath>_3006_Berserkers_Greaves_D</ImagePath>
+      <Description>Enchants these boots to have the Distortion bonus.||Unique Passive - Distortion: Your Teleport, Flash and Ghost summoner spell cooldowns are reduced by 25%.</Description>
+      <Statistics>
+        <AttackSpeed>0.2</AttackSpeed>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3006</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Berserker's Greaves - Enchantment: Furor</Name>
+      <ID>3252</ID>
+      <ImagePath>_3006_Berserkers_Greaves_C</ImagePath>
+      <Description>Enchants these boots to have the Furor bonus.||Unique Passive - Furor: Whenever you deal damage with a single target attack or spell, you gain 12% bonus movement speed that decays over 2 seconds.</Description>
+      <Statistics>
+        <AttackSpeed>0.2</AttackSpeed>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>650</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3006</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Berserker's Greaves - Enchantment: Homeguard</Name>
+      <ID>3250</ID>
+      <ImagePath>_3006_Berserkers_Greaves_A</ImagePath>
+      <Description>Enchants these boots to have the Homeguard bonus.||Unique Passive - Homeguard: When you are at fountain and have been out of combat for 8 seconds you gain full health, mana and a 200% movement speed boost that decays over 8 seconds. You lose the movement speed when you enter combat.</Description>
+      <Statistics>
+        <AttackSpeed>0.2</AttackSpeed>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3006</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Bilgewater Cutlass</Name>
+      <ID>3144</ID>
+      <ImagePath>_3144_Bilgewater_Cutlass</ImagePath>
+      <Description>+25 Attack Damage|+12% Lifesteal||Unique Active: Deals 100 magic damage and slows the target champion's Movement Speed by 25% for 2 seconds -  90 second cooldown. 500 range.</Description>
+      <Statistics>
+        <Damage>25</Damage>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>200</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1036</d4p1:string>
+        <d4p1:string>1053</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Blackfire Torch</Name>
+      <ID>3188</ID>
+      <ImagePath>_3188_Blackfire_Torch</ImagePath>
+      <Description>+80 Ability Power|+250 Health|+10 mana regeneration per 5 seconds||Unique Passive: +20% Cooldown Reduction||Unique Passive: +20 Magic Penetration||Unique Passive: Your spells burn for an additional 5% of the target champion's maximum Health in magic damage over 3 seconds. Each second burned consumes a charge. One charge is generated each second. </Description>
+      <Statistics>
+        <AbilityPower>70</AbilityPower>
+        <Health>250</Health>
+				<Cooldown>.2</Cooldown>
+      </Statistics>
+      <Mode>TTCS</Mode>
+      <Cost>700</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3098</d4p1:string>
+        <d4p1:string>3136</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>MagicPen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Blade of the Ruined King</Name>
+      <ID>3153</ID>
+      <ImagePath>_3153_Blade_of_the_Ruined_King</ImagePath>
+      <Description>+25 Attack Damage|+15% Lifesteal|+40% Attack Speed||Unique Passive: Your attacks deal 5% of the target's current health in magic damage and heals you for half the amount (60 max vs. minions).|| 	Unique: Drains target champion, dealing 15% of the champion's maximum Health in physical damage and healing you by the same amount. Additionally you steal 30% of their movement speed for 4 seconds - 60 second cooldown. (500 range)</Description>
+      <Statistics>
+        <Damage>25</Damage>
+				<Attackspeed>.4</Attackspeed>
+      </Statistics>
+      <Mode>SRTTPG</Mode>
+      <Cost>1000</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3144</d4p1:string>
+				<d4p1:string>1042</d4p1:string>
+				<d4p1:string>1042</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Blasting Wand</Name>
+      <ID>1026</ID>
+      <ImagePath>_1026_Blasting_Band</ImagePath>
+      <Description>+40 Ability Power</Description>
+      <Statistics>
+        <AbilityPower>40</AbilityPower>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>860</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Bonetooth Necklace</Name>
+      <ID>3166</ID>
+      <ImagePath>_3166_RengarTrophy</ImagePath>
+      <Description>"Rengar collects trophies when killing Champions and gains bonus effects based on how many trophies he has. Kills and assists grant him 1 trophy, and 1 trophy is lost on death.||3 Trophies: +10 armor penetration||+5% cooldown reduction||6 Trophies: +25 movement speed||9 Trophies: Rengar's leap gains 150 bonus range.||14 Trophies: Thrill of the Hunt's duration is increased by 3 seconds. Additionally, Rengar's next ability used after activating Thrill of the Hunt generates 1 bonus Ferocity."</Description>
+			<Statistics>
+				<Cooldown>.5</Cooldown>
+				<ArmorPen>10</ArmorPen>
+				<Movespeed>25</Movespeed>
+			</Statistics>
+      <Mode>Any</Mode>
+      <RequiredChampion>Rengar</RequiredChampion>
+      <Cost>800</Cost>
+			<Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Movespeed</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>ArmorPen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Mobility</Name>
+      <ID>3117</ID>
+      <ImagePath>_3004_Assault_Treads</ImagePath>
+      <Description>UNIQUE Passive - Enhanced Movement:+45 Movement Speed. Increases to|+105 Movement Speed when out of combat for 5 seconds.</Description>
+      <Statistics>
+        <Movespeed>105</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>650</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1001</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Mobility - Enchantment: Alacrity</Name>
+      <ID>3274</ID>
+      <ImagePath>_3004_Assault_Treads_E</ImagePath>
+      <Description>Enchants these boots to have the Alacrity bonus.||Unique Passive - Alacrity: +15 Movement Speed</Description>
+      <Statistics>
+        <Movespeed>120</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3117</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Mobility - Enchantment: Captain</Name>
+      <ID>3271</ID>
+      <ImagePath>_3004_Assault_Treads_B</ImagePath>
+      <Description>Enchants these boots to have the Captain bonus.||Unique Passive - Captain: Allied champions running towards you gain a 8% movement speed boost.  Nearby minions gain 25% additional movement speed.</Description>
+      <Statistics>
+        <Movespeed>105</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>750</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3117</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Mobility - Enchantment: Distortion</Name>
+      <ID>3273</ID>
+      <ImagePath>_3004_Assault_Treads_D</ImagePath>
+      <Description>Enchants these boots to have the Distortion bonus.||Unique Passive - Distortion: Your Teleport, Flash and Ghost summoner spell cooldowns are reduced by 25%.</Description>
+      <Statistics>
+        <Movespeed>105</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3117</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Mobility - Enchantment: Furor</Name>
+      <ID>3272</ID>
+      <ImagePath>_3004_Assault_Treads_C</ImagePath>
+      <Description>Enchants these boots to have the Furor bonus.||Unique Passive - Furor: Whenever you deal damage with a single target attack or spell, you gain 12% bonus movement speed that decays over 2 seconds.</Description>
+      <Statistics>
+        <Movespeed>105</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>650</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3117</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Mobility - Enchantment: Homeguard</Name>
+      <ID>3270</ID>
+      <ImagePath>_3004_Assault_Treads_A</ImagePath>
+      <Description>Enchants these boots to have the Homeguard bonus.||Unique Passive - Homeguard: When you are at fountain and have been out of combat for 8 seconds you gain full health, mana and a 200% movement speed boost that decays over 8 seconds. You lose the movement speed when you enter combat.</Description>
+      <Statistics>
+        <Movespeed>105</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3117</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Speed</Name>
+      <ID>1001</ID>
+      <ImagePath>_1001_Boots_of_Speed</ImagePath>
+      <Description>UNIQUE Passive - Enhanced Movement:+25 Movement Speed (Unique Passives with the same name don't stack.) </Description>
+      <Statistics>
+        <Movespeed>25</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>350</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Swiftness</Name>
+      <ID>3009</ID>
+      <ImagePath>_3009_Boots_of_Teleportation</ImagePath>
+      <Description>UNIQUE Passive - Enhanced Movement:+60 Movement Speed||Unique Passive - Slow Resist: Movement slowing effects are reduced by 25%. </Description>
+      <Statistics>
+        <Movespeed>60</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>650</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1001</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Swiftness - Enchantment: Alacrity</Name>
+      <ID>3284</ID>
+      <ImagePath>_3009_Boots_of_Teleportation_E</ImagePath>
+      <Description>Enchants these boots to have the Alacrity bonus.||Unique Passive - Alacrity: +15 Movement Speed</Description>
+      <Statistics>
+        <Movespeed>75</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3009</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Swiftness - Enchantment: Captain</Name>
+      <ID>3281</ID>
+      <ImagePath>_3009_Boots_of_Teleportation_B</ImagePath>
+      <Description>Enchants these boots to have the Captain bonus.||Unique Passive - Captain: Allied champions running towards you gain a 8% movement speed boost.  Nearby minions gain 25% additional movement speed.</Description>
+      <Statistics>
+        <Movespeed>60</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>750</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3009</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Swiftness - Enchantment: Distortion</Name>
+      <ID>3283</ID>
+      <ImagePath>_3009_Boots_of_Teleportation_D</ImagePath>
+      <Description>Enchants these boots to have the Distortion bonus.||Unique Passive - Distortion: Your Teleport, Flash and Ghost summoner spell cooldowns are reduced by 25%.</Description>
+      <Statistics>
+        <Movespeed>60</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3009</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Swiftness - Enchantment: Furor</Name>
+      <ID>3282</ID>
+      <ImagePath>_3009_Boots_of_Teleportation_C</ImagePath>
+      <Description>Enchants these boots to have the Furor bonus.||Unique Passive - Furor: Whenever you deal damage with a single target attack or spell, you gain 12% bonus movement speed that decays over 2 seconds.</Description>
+      <Statistics>
+        <Movespeed>60</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>650</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3009</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Boots of Swiftness - Enchantment: Homeguard</Name>
+      <ID>3280</ID>
+      <ImagePath>_3009_Boots_of_Teleportation_A</ImagePath>
+      <Description>Enchants these boots to have the Homeguard bonus.||Unique Passive - Homeguard: When you are at fountain and have been out of combat for 8 seconds you gain full health, mana and a 200% movement speed boost that decays over 8 seconds. You lose the movement speed when you enter combat.</Description>
+      <Statistics>
+        <Movespeed>60</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3009</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Brawler's Gloves</Name>
+      <ID>1051</ID>
+      <ImagePath>_1051_Brawlers_Gloves</ImagePath>
+      <Description>+8% Critical Strike Chance</Description>
+      <Statistics>
+        <CriticalStrikeChance>0.08</CriticalStrikeChance>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>400</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>CriticalStrikeChance</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Catalyst the Protector</Name>
+      <ID>3010</ID>
+      <ImagePath>_3010_Catalyst_the_Protector</ImagePath>
+      <Description>+200 Health|+300 Mana||Unique Passive - Valor's Reward: On leveling up, restores 150 Health and 200 Mana over 8 seconds. (Unique Passives with the same name don't stack.)</Description>
+      <Statistics>
+        <Health>200</Health>
+        <Mana>300</Mana>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>325</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1028</d4p1:string>
+        <d4p1:string>1027</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Chain Vest</Name>
+      <ID>1031</ID>
+      <ImagePath>_1031_Chain_Vest</ImagePath>
+      <Description>+40 Armor</Description>
+      <Statistics>
+        <Armor>40</Armor>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>720</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Chalice of Harmony</Name>
+      <ID>3028</ID>
+      <ImagePath>_3028_Harmony_Ring</ImagePath>
+      <Description>+30 Magic Resist|+7.5 Mana Regen per 5 seconds||Unique Passive: Increases your Mana Regen by 1% per 1% Mana you are missing. </Description>
+      <Statistics>
+        <MagicResist>25</MagicResist>
+        <ManaRegen>1.4</ManaRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>300</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1004</d4p1:string>
+				<d4p1:string>1004</d4p1:string>
+        <d4p1:string>1033</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Cloak of Agility</Name>
+      <ID>1018</ID>
+      <ImagePath>_1018_Cloak_of_Agility</ImagePath>
+      <Description>+15% Critical Strike Chance</Description>
+      <Statistics>
+        <CriticalStrikeChance>0.15</CriticalStrikeChance>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>730</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>CriticalStrikeChance</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Cloth Armor</Name>
+      <ID>1029</ID>
+      <ImagePath>_1029_Cloth_Armour</ImagePath>
+      <Description>+15 Armor</Description>
+      <Statistics>
+        <Armor>15</Armor>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>300</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Crystalline Flask</Name>
+      <ID>2041</ID>
+      <ImagePath>_2041_Crystalline_Flask</ImagePath>
+      <Description>UNIQUE Active: Consumes a charge to restore 100 health and 40 mana over 10 seconds.||Unique Passive: Starts with 3 charges and refills each time you stop by your shop. </Description>
+      <Statistics />
+      <Mode>SRTTCS</Mode>
+      <Cost>345</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Consumables</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Dagger</Name>
+      <ID>1042</ID>
+      <ImagePath>_1042_Dagger</ImagePath>
+      <Description>+12% Attack Speed</Description>
+      <Statistics>
+        <AttackSpeed>0.12</AttackSpeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>400</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Deathfire Grasp</Name>
+      <ID>3128</ID>
+      <ImagePath>_055_Borses_Staff_of_Apocalypse</ImagePath>
+      <Description>+100 Ability Power|+10% Cooldown Reduction||Unique Active: Deals 15% of target champion's maximum Health in Magic Damage then amplifies all magic damage they take by 20% for 4 seconds - 60 second cooldown. </Description>
+      <Statistics>
+        <AbilityPower>100</AbilityPower>
+				<Cooldown>.1</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>680</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1058</d4p1:string>
+        <d4p1:string>3108</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Doran's Blade</Name>
+      <ID>1055</ID>
+      <ImagePath>PetAttack</ImagePath>
+      <Description>+80 Health|+10 Attack Damage Passive: Your basic attacks restore 5 health each time they hit an enemy. </Description>
+      <Statistics>
+        <Damage>10</Damage>
+        <Health>80</Health>
+      </Statistics>
+			<Mode>SRTTPG</Mode>
+      <Cost>475</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Doran's Ring</Name>
+      <ID>1056</ID>
+      <ImagePath>_165_Harmony_Ring</ImagePath>
+      <Description>+80 Health|+15 Ability Power|+5 Mana Regen per 5 seconds||Passive: Restores 5 mana when you kill an enemy unit.</Description>
+      <Statistics>
+        <AbilityPower>15</AbilityPower>
+        <Health>80</Health>
+        <ManaRegen>0.6</ManaRegen>
+      </Statistics>
+			<Mode>SRTTPG</Mode>
+      <Cost>475</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Doran's Shield</Name>
+      <ID>1054</ID>
+      <ImagePath>_033_Buckler</ImagePath>
+      <Description>+100 Health|+5 Armor|+8 Health Regen per 5 seconds||Unique Passive: Blocks 6 damage from champion basic attacks. </Description>
+      <Statistics>
+        <Armor>5</Armor>
+        <Health>100</Health>
+        <HealthRegen>1.6</HealthRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>475</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Eleisa's Miracle</Name>
+      <ID>3173</ID>
+      <ImagePath>_3173_Eleisas_Miracle</ImagePath>
+      <Description>+10 Health Regen per 5 seconds|+15 Mana Regen per 5 seconds||Unique Passive - Aid: Your Summoner Heal, Revive and Clairvoyance cooldowns are reduced by 20%.||Unique Passive - Eleisa's Blessing: If you gain 3 levels with this item, you gain all the effects of this item permanently and this item is consumed.</Description>
+      <Statistics>
+        <HealthRegen>2</HealthRegen>
+        <ManaRegen>3</ManaRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>400</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3096</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Elixir of Brilliance</Name>
+      <ID>2039</ID>
+      <ImagePath>_2039_Potion_of_Brilliance</ImagePath>
+      <Description>On use, grants 20-40 ability power, based on champion level, and 10% cooldown reduction for 4 minutes.</Description>
+			<Statistics>
+				<Cooldown>.1</Cooldown>
+				<AbilityPower>40</AbilityPower>
+			</Statistics>
+			<Mode>SRPG</Mode>
+      <Cost>250</Cost>
+      <MaxStacks>3</MaxStacks>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Consumables</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Elixir of Fortitude</Name>
+      <ID>2037</ID>
+      <ImagePath>_2037_Potion_of_Giant_Strength</ImagePath>
+      <Description>On use, grants 140-235 health, based on champion level and 10 attack damage for 4 minutes.</Description>
+      <Statistics />
+			<Mode>SRPG</Mode>
+      <Cost>250</Cost>
+      <MaxStacks>3</MaxStacks>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Consumables</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+		<Item>
+			<Name>Emblem of Valor</Name>
+			<ID>3097</ID>
+			<ImagePath>_3052_Reverb_Coil</ImagePath>
+			<Description>+20 Armor||Unique - Valor: Nearby allied champions gain +7 health regen per 5 seconds.</Description>
+			<Statistics>
+				<Armor>20</Armor>
+				<HealthRegen>1.4</HealthRegen>
+			</Statistics>
+			<Mode>Any</Mode>
+			<Cost>170</Cost>
+			<RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<d4p1:string>1029</d4p1:string>
+				<d4p1:string>1006</d4p1:string>
+			</RequiredItems>
+			<Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Aura</d4p1:LolEnums.ItemTags>
+			</Tags>
+			<UseResourceFile>true</UseResourceFile>
+		</Item>
+    <Item>
+      <Name>Entropy</Name>
+      <ID>3184</ID>
+      <ImagePath>_3184_FrozenWarhammer</ImagePath>
+      <Description>+275 Health|+70 Attack Damage||Unique Passive: Your basic attacks have a 25% chance to reduce your target's Movement Speed by 30% for 2.5 seconds.||Unique Active: For the next 5 seconds, your basic attacks reduce your target's Movement Speed by 30% and deal 80 true damage over 2.5 seconds (60 second cooldown). </Description>
+      <Statistics>
+        <Damage>70</Damage>
+        <Health>275</Health>
+      </Statistics>
+      <Mode>CS</Mode>
+      <Cost>600</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3044</d4p1:string>
+        <d4p1:string>1038</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Executioner's Calling</Name>
+      <ID>3123</ID>
+      <ImagePath>_3069_Sword_of_Light_and_Shadow</ImagePath>
+      <Description>+25 Damage|+20% Critical Strike Chance||Unique: Your basic attacks inflict Grievous Wounds on enemy champion for 1.5 seconds.</Description>
+      <Statistics>
+        <CriticalStrikeChance>0.2</CriticalStrikeChance>
+        <Damage>25</Damage>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>700</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3093</d4p1:string>
+        <d4p1:string>1036</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>CriticalStrikeChance</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <!--<Item>
+      <Name>Explorer's Ward</Name>
+      <ID>2050</ID>
+      <ImagePath>_2050_Explorer_Ward</ImagePath>
+      <Description>TBDDesc</Description>
+      <Statistics />
+      <Mode>SRTTCS</Mode>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Consumables</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>-->
+    <Item>
+      <Name>Faerie Charm</Name>
+      <ID>1004</ID>
+      <ImagePath>_1004_Faerie_Charm</ImagePath>
+      <Description>+3 Mana Regen per 5 seconds</Description>
+      <Statistics>
+        <ManaRegen>0.6</ManaRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>180</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Fiendish Codex</Name>
+      <ID>3108</ID>
+      <ImagePath>_113_Tome_of_Minor_Necro_Compulsion</ImagePath>
+      <Description>+30 Ability Power||Unique Passive: +10% Cooldown Reduction </Description>
+      <Statistics>
+        <AbilityPower>30</AbilityPower>
+				<Cooldown>.1</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>385</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1052</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Frozen Heart</Name>
+      <ID>3110</ID>
+      <ImagePath>_122_Frozen_Heart</ImagePath>
+      <Description>+95 Armor|+400 Mana|+20% Cooldown Reduction||Unique Aura: Reduces the Attack Speed of nearby enemies by 20%. </Description>
+      <Statistics>
+        <Armor>95</Armor>
+        <Mana>400</Mana>
+				<Cooldown>.2</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>550</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3082</d4p1:string>
+        <d4p1:string>3024</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Aura</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Frozen Mallet</Name>
+      <ID>3022</ID>
+      <ImagePath>_3022_Frozen_Heart</ImagePath>
+      <Description>+700 Health|+30 Attack Damage||Unique Passive - Icy: Your basic attacks slow your target's Movement Speed by 40% for 1.5 seconds (30% slow for ranged attacks). </Description>
+      <Statistics>
+        <Damage>30</Damage>
+        <Health>700</Health>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>835</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3044</d4p1:string>
+        <d4p1:string>1011</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Giant's Belt</Name>
+      <ID>1011</ID>
+      <ImagePath>_1011_Mighty_Waistband_of_the_Reaver</ImagePath>
+      <Description>+380 Health</Description>
+      <Statistics>
+        <Health>380</Health>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>1000</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Glacial Shroud</Name>
+      <ID>3024</ID>
+      <ImagePath>_3024_Glacial_Shroud</ImagePath>
+      <Description>+300 Mana|+45 Armor||Unique Passive: +10% Cooldown Reduction </Description>
+      <Statistics>
+        <Armor>45</Armor>
+        <Mana>300</Mana>
+				<Cooldown>.1</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>230</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1027</d4p1:string>
+        <d4p1:string>1031</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Grez's Spectral Lantern</Name>
+      <ID>3159</ID>
+      <ImagePath>_3159_Grez_s_Spectral_Lantern</ImagePath>
+      <Description>+20 Attack Damage|+30 Armor||Unique Passive: Your basic attacks against minions and monsters have a 20% chance to deal 300 bonus magic damage.||Unique Active: A stealth-detecting mist grants vision in the target area for 10 seconds (1 minute cooldown) </Description>
+      <Statistics>
+        <Armor>20</Armor>
+        <Damage>25</Damage>
+      </Statistics>
+      <Mode>TT</Mode>
+      <Cost>150</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1029</d4p1:string>
+        <d4p1:string>1053</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Guardian Angel</Name>
+      <ID>3026</ID>
+      <ImagePath>_3026_Guardian_Angel</ImagePath>
+      <Description>+50 Armor|+30 Magic Resist||Unique Passive: Revives your champion upon death, restoring 30% of your Maximum Health and Mana - 5 minute cooldown. </Description>
+      <Statistics>
+        <Armor>50</Armor>
+        <MagicResist>30</MagicResist>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>1480</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1033</d4p1:string>
+        <d4p1:string>1031</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Guinsoo's Rageblade</Name>
+      <ID>3124</ID>
+      <ImagePath>_3064_Spike_the_Ripper</ImagePath>
+      <Description>+30 Attack Damage|+40 Ability Power||Passive: Your basic attacks or spellcasts grant you 4% Attack Speed and 4 Ability Power for 8 seconds. This bonus stacks up to 8 times.||Unique Passive: Falling below 50% health grants you 20% Attack Speed, 10% Lifesteal and 10% Spell Vamp until you exit combat - 30 second cooldown. </Description>
+      <Statistics>
+        <AbilityPower>40</AbilityPower>
+        <Damage>30</Damage>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>865</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1026</d4p1:string>
+        <d4p1:string>1037</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>SpellVamp</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Haunting Guise</Name>
+      <ID>3136</ID>
+      <ImagePath>_3014_Doppleganker</ImagePath>
+      <Description>+25 Ability Power|+200 Health||Unique Passive - Eyes of Pain: +15 Magic Penetration. (Magic Penetration helps you deal more magic damage to enemies with high Magic Resistance. % Magic Penetration is applied before Flat Magic Penetration when calculating damage.||Unique Passives with the same name do not stack.) </Description>
+      <Statistics>
+        <AbilityPower>25</AbilityPower>
+        <Health>200</Health>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>575</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1028</d4p1:string>
+        <d4p1:string>1052</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>MagicPen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Health Potion</Name>
+      <ID>2003</ID>
+      <ImagePath>_2003_Regeneration_Potion</ImagePath>
+      <Description>Restores 150 health over 15 seconds.</Description>
+      <Statistics />
+      <Mode>Any</Mode>
+      <Cost>35</Cost>
+      <MaxStacks>9</MaxStacks>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Consumables</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Hexdrinker</Name>
+      <ID>3155</ID>
+      <ImagePath>_3155_Hexdrinker</ImagePath>
+      <Description>+25 Attack Damage|+25 Magic Resist||Unique Passive - Lifeline: If you would take magic damage that would leave you at less than 30% Health, you first gain a shield that absorbs 250 magic damage for 5 seconds - 90 second cooldown. </Description>
+      <Statistics>
+        <Damage>25</Damage>
+        <MagicResist>25</MagicResist>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>550</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1036</d4p1:string>
+        <d4p1:string>1033</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Hextech Gunblade</Name>
+      <ID>3146</ID>
+      <ImagePath>_3146_Hextech_Gunblade</ImagePath>
+      <Description>+45 Attack Damage|+65 Ability Power|+10% Lifesteal||Unique: +20% Spell Vamp||Unique Passive: Your basic attacks and single target spells against champions reduce the cooldown of this item by 3 seconds.||Unique Active: Deals 150 + 40% of your Ability Power as magic damage and slows target champion's Movement Speed by 40% for 2 seconds - 60 second cooldown. </Description>
+      <Statistics>
+        <AbilityPower>65</AbilityPower>
+        <Damage>45</Damage>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>275</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3144</d4p1:string>
+        <d4p1:string>3145</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>SpellVamp</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Hextech Revolver</Name>
+      <ID>3145</ID>
+      <ImagePath>_3145_Hextech_Revolver</ImagePath>
+      <Description>+40 Ability Power||Unique Passive: +12% Spell Vamp </Description>
+      <Statistics>
+        <AbilityPower>40</AbilityPower>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>330</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1052</d4p1:string>
+        <d4p1:string>1052</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>SpellVamp</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Hextech Sweeper</Name>
+      <ID>3187</ID>
+      <ImagePath>_3187_HextechSweeper</ImagePath>
+      <Description>+50 Ability Power|+300 Health||Unique Passive: +10% Cooldown Reduction||Unique Passive: +10% Movement Speed||Unique Active: A stealth-detecting mist grants vision in the target area for 10 seconds (1 minute cooldown). Trap Detection: Nearby stealthed enemy traps are revealed </Description>
+      <Statistics>
+        <AbilityPower>50</AbilityPower>
+        <Health>300</Health>
+				<Cooldown>.1</Cooldown>
+				<PercentMovespeed>.1</PercentMovespeed>
+			</Statistics>
+      <Mode>TTCS</Mode>
+      <Cost>200</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1052</d4p1:string>
+        <d4p1:string>1052</d4p1:string>
+        <d4p1:string>3067</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Movespeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Hunter's Machete</Name>
+      <ID>1039</ID>
+      <ImagePath>_1039_Butchers_Machete</ImagePath>
+      <Description>UNIQUE Passive - Butcher: Damage dealt to monsters increased by 10%.||Unique Passive - Rend: Basic attacks deal 10 bonus true damage to monsters. (Unique Passives with the same name don't stack.) </Description>
+      <Statistics />
+      <Mode>SRTTCS</Mode>
+      <Cost>300</Cost>
+			<Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>Jungle</d4p1:LolEnums.ItemTags>
+			</Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+		<Item>
+			<Name>Iceborn Gauntlet</Name>
+			<ID>3025</ID>
+			<ImagePath>_3025_Frozen_Fist</ImagePath>
+			<Description>+40 Ability Power|+500 Mana|+60 Armor|+10% Cooldown Reduction||Unique Passive - Spellblade: After using an ability, your next basic attack deals bonus physical damage equal to 125% of your base attack damage to surrounding enemies and creates a field for 2 seconds that slows enemies inside by 30% (2 second cooldown).</Description>
+			<Statistics>
+				<AbilityPower>40</AbilityPower>
+				<Armor>60</Armor>
+				<Mana>500</Mana>
+				<Cooldown>.1</Cooldown>
+			</Statistics>
+			<Mode>Any</Mode>
+			<Cost>640</Cost>
+			<RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<d4p1:string>3057</d4p1:string>
+				<d4p1:string>3024</d4p1:string>
+			</RequiredItems>
+			<Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+			</Tags>
+			<UseResourceFile>true</UseResourceFile>
+		</Item>
+    <Item>
+      <Name>Ichor of Illumination</Name>
+      <ID>2048</ID>
+      <ImagePath>_2048_Ichor_of_Illumination</ImagePath>
+      <Description>Grants 30-64 Ability Power based on champion level, 15% Cooldown Reduction, and a huge boost to mana and energy regeneration for 4 minutes.</Description>
+      <Statistics>
+				<Cooldown>.15</Cooldown>
+				<Cooldown>64</Cooldown>
+			</Statistics>
+      <Mode>TT</Mode>
+      <Cost>500</Cost>
+      <MaxStacks>3</MaxStacks>
+			<Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+			</Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ichor of Rage</Name>
+      <ID>2040</ID>
+      <ImagePath>_2040_Ichor_of_Rage</ImagePath>
+      <Description>Click to Consume: Grants 20-42 Attack Damage based on champion level, 20-42% Attack Speed based on champion level, and 15% increased damage to Turrets for 4 minutes.</Description>
+      <Statistics />
+      <Mode>TT</Mode>
+      <Cost>500</Cost>
+      <MaxStacks>3</MaxStacks>
+			<Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+			</Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Infinity Edge</Name>
+      <ID>3031</ID>
+      <ImagePath>_3031_Infinity_Edge</ImagePath>
+      <Description>+80 Attack Damage|+25% Critical Strike Chance||Unique Passive: Your critical strikes now deal 250% damage instead of 200%. </Description>
+      <Statistics>
+        <CriticalStrikeChance>0.25</CriticalStrikeChance>
+        <Damage>70</Damage>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>645</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1038</d4p1:string>
+        <d4p1:string>1037</d4p1:string>
+        <d4p1:string>1018</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>CriticalStrikeChance</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ionian Boots of Lucidity</Name>
+      <ID>3158</ID>
+      <ImagePath>_3158_Ionian_Boots_of_Lucidity</ImagePath>
+      <Description>UNIQUE Passive:|+15% Cooldown Reduction||Unique Passive - Enhanced Movement: +45 Movement Speed ''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.'' </Description>
+      <Statistics>
+        <Movespeed>45</Movespeed>
+				<Cooldown>.15</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>700</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1001</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ionian Boots of Lucidity - Enchantment: Alacrity</Name>
+      <ID>3279</ID>
+      <ImagePath>_3158_Ionian_Boots_of_Lucidity_E</ImagePath>
+      <Description>Enchants these boots to have the Alacrity bonus.||Unique Passive - Alacrity: +15 Movement Speed</Description>
+      <Statistics>
+        <Movespeed>60</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3158</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ionian Boots of Lucidity - Enchantment: Captain</Name>
+      <ID>3276</ID>
+      <ImagePath>_3158_Ionian_Boots_of_Lucidity_B</ImagePath>
+      <Description>Enchants these boots to have the Captain bonus.||Unique Passive - Captain: Allied champions running towards you gain a 8% movement speed boost.  Nearby minions gain 25% additional movement speed.</Description>
+      <Statistics>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>750</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3158</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ionian Boots of Lucidity - Enchantment: Distortion</Name>
+      <ID>3278</ID>
+      <ImagePath>_3158_Ionian_Boots_of_Lucidity_D</ImagePath>
+      <Description>Enchants these boots to have the Distortion bonus.||Unique Passive - Distortion: Your Teleport, Flash and Ghost summoner spell cooldowns are reduced by 25%.</Description>
+      <Statistics>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3158</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ionian Boots of Lucidity - Enchantment: Furor</Name>
+      <ID>3277</ID>
+      <ImagePath>_3158_Ionian_Boots_of_Lucidity_C</ImagePath>
+      <Description>Enchants these boots to have the Furor bonus.||Unique Passive - Furor: Whenever you deal damage with a single target attack or spell, you gain 12% bonus movement speed that decays over 2 seconds.</Description>
+      <Statistics>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>650</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3158</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ionian Boots of Lucidity - Enchantment: Homeguard</Name>
+      <ID>3275</ID>
+      <ImagePath>_3158_Ionian_Boots_of_Lucidity_A</ImagePath>
+      <Description>Enchants these boots to have the Homeguard bonus.||Unique Passive - Homeguard: When you are at fountain and have been out of combat for 8 seconds you gain full health, mana and a 200% movement speed boost that decays over 8 seconds. You lose the movement speed when you enter combat.</Description>
+      <Statistics>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3158</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Kage's Lucky Pick</Name>
+      <ID>3098</ID>
+      <ImagePath>_3090_Thoughtbreaker</ImagePath>
+      <Description>+25 Ability Power||Unique Passive - Lucky Shadow: Gain an additional 4 Gold every 10 seconds. (Unique Passives with the same name don't stack.) </Description>
+      <Statistics>
+        <AbilityPower>25</AbilityPower>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>330</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1052</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Kindlegem</Name>
+      <ID>3067</ID>
+      <ImagePath>_3067_Kindlegem</ImagePath>
+      <Description>+200 Health||Unique Passive: +10% Cooldown Reduction </Description>
+      <Statistics>
+        <Health>200</Health>
+				<Cooldown>.1</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>375</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1028</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Kitae's Bloodrazor</Name>
+      <ID>3186</ID>
+      <ImagePath>_3186_KitaesBloodrazor</ImagePath>
+      <Description>+30 Attack Damage|+40% Attack Speed||Unique: Your basic attacks deal magic damage equal to 2.5% of the target's maximum health. </Description>
+      <Statistics>
+        <AttackSpeed>0.3</AttackSpeed>
+        <Damage>30</Damage>
+      </Statistics>
+      <Mode>CS</Mode>
+      <Cost>700</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1037</d4p1:string>
+        <d4p1:string>1043</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Last Whisper</Name>
+      <ID>3035</ID>
+      <ImagePath>_3035_Last_Whisper</ImagePath>
+      <Description>+40 Attack Damage||Unique Passive: +35% Armor Penetration </Description>
+      <Statistics>
+        <Damage>40</Damage>
+				<PercentArmorPen>.35</PercentArmorPen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>860</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1037</d4p1:string>
+        <d4p1:string>1036</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>ArmorPen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Liandry's Torment</Name>
+      <ID>3151</ID>
+      <ImagePath>_3151_Liandrys_Lament</ImagePath>
+      <Description>+50 Ability Power|+300 Health||Unique Passive - Eyes of Pain: +15 Magic Penetration||Unique Passive: Dealing spell damage burns enemies for 6% of their current health as magic damage over 3 seconds. If their movement is impaired, they take double damage from this effect. 300 max damage vs monsters.</Description>
+      <Statistics>
+        <AbilityPower>50</AbilityPower>
+        <Health>200</Health>
+      </Statistics>
+      <Mode>SRPG</Mode>
+      <Cost>980</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3136</d4p1:string>
+        <d4p1:string>1052</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>MagicPen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Lich Bane</Name>
+      <ID>3100</ID>
+      <ImagePath>_126_Zeal_and_Sheen</ImagePath>
+      <Description>+80 Ability Power|+250 Mana|+5% Movement Speed||Unique – Spellblade: After using an ability, your next basic attack deals bonus magic damage equal to 50 + 75% of your ability power. 2 second cooldown.</Description>
+      <Statistics>
+        <AbilityPower>80</AbilityPower>
+        <Mana>250</Mana>
+        <PercentMovespeed>0.05</PercentMovespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>880</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3057</d4p1:string>
+        <d4p1:string>1026</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Movespeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Locket of the Iron Solari</Name>
+      <ID>3190</ID>
+      <ImagePath>_3190_Crest_of_the_iron_solari</ImagePath>
+      <Description>+300 Health|+35 Armor||Unique Aura: Nearby allied Champions gain 15 Health Regen per 5 seconds.||Unique Active: Shield yourself and nearby allies for 5 seconds, absorbing up to 50 (+10 per level) damage (60 second cooldown).</Description>
+      <Statistics>
+        <Armor>35</Armor>
+        <Health>425</Health>
+        <HealthRegen>2</HealthRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>670</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3067</d4p1:string>
+        <d4p1:string>1029</d4p1:string>
+        <d4p1:string>1006</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Aura</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Long Sword</Name>
+      <ID>1036</ID>
+      <ImagePath>_1036_Long_Sword</ImagePath>
+      <Description>+10 Attack Damage</Description>
+      <Statistics>
+        <Damage>10</Damage>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>400</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Madred's Razors</Name>
+      <ID>3106</ID>
+      <ImagePath>_139_Strygwyrs_Reaver</ImagePath>
+      <Description>+15 Attack Damage|+23 Armor||Unique Passive: Your basic attacks against minions and monsters have a 20% chance to deal 300 bonus magic damage. </Description>
+      <Statistics>
+        <Armor>25</Armor>
+      </Statistics>
+			<Mode>SR</Mode>
+      <Cost>100</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1029</d4p1:string>
+        <d4p1:string>1039</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Jungle</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Malady</Name>
+      <ID>3114</ID>
+      <ImagePath>_3114_Malady</ImagePath>
+      <Description>+25 Ability Power|+45% Attack Speed||Unique Passive: Your basic attacks deal 15 + 10% of your Ability Power as bonus magic damage.||Unique Passive: Your basic attacks reduce enemy Magic Resistance by 4 for 8 seconds (effect stacks up to 7 times). </Description>
+      <Statistics>
+        <AbilityPower>25</AbilityPower>
+        <AttackSpeed>0.45</AttackSpeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>800</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1042</d4p1:string>
+        <d4p1:string>1042</d4p1:string>
+        <d4p1:string>1052</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Mana Manipulator</Name>
+      <ID>3037</ID>
+      <ImagePath>_3037_Mana_Manipulator</ImagePath>
+      <Description>UNIQUE: Nearby allied champions gain|+7.2 mana regeneration.</Description>
+      <Statistics />
+      <Mode>Any</Mode>
+      <Cost>40</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1004</d4p1:string>
+        <d4p1:string>1004</d4p1:string>
+      </RequiredItems>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Mana Potion</Name>
+      <ID>2004</ID>
+      <ImagePath>_2004_Flask_of_Crystal_Water</ImagePath>
+      <Description>Restores 100 mana over 15 seconds.</Description>
+      <Statistics />
+      <Mode>Any</Mode>
+      <Cost>35</Cost>
+      <MaxStacks>9</MaxStacks>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Consumables</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Manamune</Name>
+      <ID>3004</ID>
+      <ImagePath>_3004_Manamune</ImagePath>
+      <Description>+250 Mana|+10 Attack Damage|+7 Mana Regen per 5 seconds||Unique Passive - Awe: Gain Attack Damage equal to 2% of your maximum Mana.||Unique Passive - Mana Charge: Each time you attack, cast a spell or spend Mana, you gain 4 maximum Mana (3 second cooldown). Bonus caps at +750 Mana. Transforms into Muramana at 750 Bonus Mana. </Description>
+      <Statistics>
+        <Damage>10</Damage>
+        <Mana>250</Mana>
+        <ManaRegen>1.42</ManaRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>1000</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3070</d4p1:string>
+        <d4p1:string>1036</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Maw of Malmortius</Name>
+      <ID>3156</ID>
+      <ImagePath>_3156_PhaseBlade</ImagePath>
+      <Description>+55 Attack Damage|+36 Magic Resist||Unique Passive: Gain +1 Attack Damage for every 2.5% of your Maximum Health you are missing.||Unique Passive - Lifeline: If you would take magic damage that would leave you at less than 30% Health, you first gain a shield that absorbs 400 magic damage for 5 seconds - 90 second cooldown.</Description>
+      <Statistics>
+        <Damage>55</Damage>
+        <MagicResist>36</MagicResist>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>975</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3155</d4p1:string>
+        <d4p1:string>1037</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Mejai's Soulstealer</Name>
+      <ID>3041</ID>
+      <ImagePath>_3041_Mejais_Soulstealer</ImagePath>
+      <Description>+20 Ability Power||Unique Passive: Your champion gains 8 Ability Power per stack, receiving 2 stacks for a kill or 1 stack for an assist (stacks up to 20). You lose a third of your stacks on death. At 20 stacks, your champion gains 15% Cooldown Reduction.</Description>
+      <Statistics>
+        <AbilityPower>20</AbilityPower>
+				<Cooldown>.2</Cooldown>
+      </Statistics>
+			<Mode>SR</Mode>
+      <Cost>800</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1052</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Mercurial Scimitar</Name>
+      <ID>3139</ID>
+      <ImagePath>_3139_Mercurial_Scimitar</ImagePath>
+      <Description>+60 Attack Damage|+45 Magic Resist||Unique Active - Quicksilver: Removes all debuffs from your champion. If your champion is Melee, this item also grants 50% bonus Movement Speed for 1 second - 90 second cooldown.</Description>
+      <Statistics>
+        <Damage>60</Damage>
+        <MagicResist>45</MagicResist>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>600</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3140</d4p1:string>
+        <d4p1:string>1038</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Movespeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Mercury's Treads</Name>
+      <ID>3111</ID>
+      <ImagePath>_176_Rogues_Chucks</ImagePath>
+      <Description>+25 Magic Resist||Unique Passive - Enhanced Movement: +45 Movement Speed||Unique Passive - Tenacity: The duration of stuns, slows, taunts, fears, silences, blinds and immobilizes are reduced by 35%. </Description>
+      <Statistics>
+        <MagicResist>25</MagicResist>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>450</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1001</d4p1:string>
+        <d4p1:string>1033</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Tenacity</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Mercury's Treads - Enchantment: Alacrity</Name>
+      <ID>3269</ID>
+      <ImagePath>_3008_Boots_Of_Swiftness_E</ImagePath>
+      <Description>Enchants these boots to have the Alacrity bonus.||Unique Passive - Alacrity: +15 Movement Speed</Description>
+      <Statistics>
+        <MagicResist>25</MagicResist>
+        <Movespeed>60</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3111</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Mercury's Treads - Enchantment: Captain</Name>
+      <ID>3266</ID>
+      <ImagePath>_3008_Boots_Of_Swiftness_B</ImagePath>
+      <Description>Enchants these boots to have the Captain bonus.||Unique Passive - Captain: Allied champions running towards you gain a 8% movement speed boost.  Nearby minions gain 25% additional movement speed.</Description>
+      <Statistics>
+        <MagicResist>25</MagicResist>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>750</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3111</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Mercury's Treads - Enchantment: Distortion</Name>
+      <ID>3268</ID>
+      <ImagePath>_3008_Boots_Of_Swiftness_D</ImagePath>
+      <Description>Enchants these boots to have the Distortion bonus.||Unique Passive - Distortion: Your Teleport, Flash and Ghost summoner spell cooldowns are reduced by 25%.</Description>
+      <Statistics>
+        <MagicResist>25</MagicResist>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3111</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Mercury's Treads - Enchantment: Furor</Name>
+      <ID>3267</ID>
+      <ImagePath>_3008_Boots_Of_Swiftness_C</ImagePath>
+      <Description>Enchants these boots to have the Furor bonus.||Unique Passive - Furor: Whenever you deal damage with a single target attack or spell, you gain 12% bonus movement speed that decays over 2 seconds.</Description>
+      <Statistics>
+        <MagicResist>25</MagicResist>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>650</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3111</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Mercury's Treads - Enchantment: Homeguard</Name>
+      <ID>3265</ID>
+      <ImagePath>_3008_Boots_Of_Swiftness_A</ImagePath>
+      <Description>Enchants these boots to have the Homeguard bonus.||Unique Passive - Homeguard: When you are at fountain and have been out of combat for 8 seconds you gain full health, mana and a 200% movement speed boost that decays over 8 seconds. You lose the movement speed when you enter combat.</Description>
+      <Statistics>
+        <MagicResist>25</MagicResist>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3111</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Mikael's Crucible</Name>
+      <ID>3222</ID>
+      <ImagePath>_3222_Mikaels_Crucible</ImagePath>
+      <Description>+300 Mana|+40 Magic Resist|+9 Mana Regen per 5 seconds||Unique Passive - Mana Font: Increases your Mana Regen by 1% per 1% Mana you are missing.||Unique Active: Removes all stuns, roots, taunts, fears, silences and slows on an ally and heals them for 150 + 15% of their missing health - 180 second cooldown. </Description>
+      <Statistics>
+        <MagicResist>40</MagicResist>
+        <Mana>300</Mana>
+        <ManaRegen>1.8</ManaRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>920</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1027</d4p1:string>
+        <d4p1:string>3028</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Morellonomicon</Name>
+      <ID>3165</ID>
+      <ImagePath>_3165_Noxusnomicon</ImagePath>
+      <Description>+75 Ability Power|+12 Mana Regen per 5 seconds|+20% Cooldown Reduction||UNIQUE Passive: Dealing magic damage to enemy champions below 40% Health inflicts Grievous Wounds for 4 seconds.(Grievous Wounds reduces incoming healing and regeneration effects by 50%)</Description>
+      <Statistics>
+        <AbilityPower>75</AbilityPower>
+        <ManaRegen>2.4</ManaRegen>
+				<Cooldown>.2</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>435</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3098</d4p1:string>
+        <d4p1:string>3108</d4p1:string>
+				<d4p1:string>1004</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Muramana</Name>
+      <ID>3042</ID>
+      <ImagePath>_3042_Muramana</ImagePath>
+      <Description>+1000 Mana|+20 Attack Damage|+7 Mana Regen per 5 seconds||Unique Passive - Awe: Gain Attack Damage equal to 2% of your maximum Mana. Toggle: Your single target spells and attacks consume 3% of your current mana to deal twice the amount as magic damage. Transforms from Manamune at 750 Mana. </Description>
+      <Statistics>
+        <Damage>20</Damage>
+        <Mana>1000</Mana>
+        <ManaRegen>1.42</ManaRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>2100</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Nashor's Tooth</Name>
+      <ID>3115</ID>
+      <ImagePath>_3115_Nashors_Tooth</ImagePath>
+      <Description>+50% Attack Speed|+65 Ability Power||Unique Passive: +20% Cooldown Reduction </Description>
+      <Statistics>
+        <AbilityPower>65</AbilityPower>
+        <AttackSpeed>0.5</AttackSpeed>
+				<Cooldown>.2</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>200</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3101</d4p1:string>
+        <d4p1:string>3108</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Needlessly Large Rod</Name>
+      <ID>1058</ID>
+      <ImagePath>_1058_Needlessly_Large_Wand</ImagePath>
+      <Description>+80 Ability Power</Description>
+      <Statistics>
+        <AbilityPower>80</AbilityPower>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>1600</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Negatron Cloak</Name>
+      <ID>1057</ID>
+      <ImagePath>_161_Elementium_Woven_Mantle</ImagePath>
+      <Description>+40 Magic Resist</Description>
+      <Statistics>
+        <MagicResist>40</MagicResist>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>720</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ninja Tabi</Name>
+      <ID>3047</ID>
+      <ImagePath>_3047_Phase_Striders</ImagePath>
+      <Description>+25 Armor||Unique Passive: Blocks 10% of the damage from champion basic attacks.||Unique Passive - Enhanced Movement: +45 Movement Speed </Description>
+      <Statistics>
+        <Armor>25</Armor>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>350</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1001</d4p1:string>
+        <d4p1:string>1029</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ninja Tabi - Enchantment: Alacrity</Name>
+      <ID>3264</ID>
+      <ImagePath>_3047_Phase_Striders_E</ImagePath>
+      <Description>Enchants these boots to have the Alacrity bonus.||Unique Passive - Alacrity: +15 Movement Speed</Description>
+      <Statistics>
+        <Armor>25</Armor>
+        <Movespeed>60</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3047</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ninja Tabi - Enchantment: Captain</Name>
+      <ID>3261</ID>
+      <ImagePath>_3047_Phase_Striders_B</ImagePath>
+      <Description>Enchants these boots to have the Captain bonus.||Unique Passive - Captain: Allied champions running towards you gain a 8% movement speed boost.  Nearby minions gain 25% additional movement speed.</Description>
+      <Statistics>
+        <Armor>25</Armor>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>750</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3047</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ninja Tabi - Enchantment: Distortion</Name>
+      <ID>3263</ID>
+      <ImagePath>_3047_Phase_Striders_D</ImagePath>
+      <Description>Enchants these boots to have the Distortion bonus.||Unique Passive - Distortion: Your Teleport, Flash and Ghost summoner spell cooldowns are reduced by 25%.</Description>
+      <Statistics>
+        <Armor>25</Armor>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3047</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ninja Tabi - Enchantment: Furor</Name>
+      <ID>3262</ID>
+      <ImagePath>_3047_Phase_Striders_C</ImagePath>
+      <Description>Enchants these boots to have the Furor bonus.||Unique Passive - Furor: Whenever you deal damage with a single target attack or spell, you gain 12% bonus movement speed that decays over 2 seconds.</Description>
+      <Statistics>
+        <Armor>25</Armor>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>650</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3047</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ninja Tabi - Enchantment: Homeguard</Name>
+      <ID>3260</ID>
+      <ImagePath>_3047_Phase_Striders_A</ImagePath>
+      <Description>Enchants these boots to have the Homeguard bonus.||Unique Passive - Homeguard: When you are at fountain and have been out of combat for 8 seconds you gain full health, mana and a 200% movement speed boost that decays over 8 seconds. You lose the movement speed when you enter combat.</Description>
+      <Statistics>
+        <Armor>25</Armor>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3047</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Null-Magic Mantle</Name>
+      <ID>1033</ID>
+      <ImagePath>_1033_Elementium_Threaded_Cloak</ImagePath>
+      <Description>+20 Magic Resist</Description>
+      <Statistics>
+        <MagicResist>20</MagicResist>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>400</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Odyn's Veil</Name>
+      <ID>3180</ID>
+      <ImagePath>_3180_OdynsVeil</ImagePath>
+      <Description>+350 Health|+350 Mana|+50 Magic Resist||Unique Passive: Reduces and stores 10% of the magic damage dealt to your champion.||Unique Active: Deals 200 + (stored magic) [max: 400] magic damage to nearby enemy units (90 second cooldown). </Description>
+      <Statistics>
+        <Health>350</Health>
+        <MagicResist>50</MagicResist>
+        <Mana>350</Mana>
+      </Statistics>
+      <Mode>CS</Mode>
+      <Cost>600</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1057</d4p1:string>
+        <d4p1:string>3010</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ohmwrecker</Name>
+      <ID>3056</ID>
+      <ImagePath>_3056_Ohmwrecker</ImagePath>
+      <Description>+350 Health|+50 Ability Power|+15 Health Regeneration|+15 Mana Regeneration||Unique Active: Prevents the closest enemy tower from attacking for 2.5 seconds (120 second cooldown). This effect cannot be used against the same tower more than once every 7.5 seconds.</Description>
+      <Statistics>
+        <AbilityPower>50</AbilityPower>
+        <Health>350</Health>
+				<HealthRegen>3</HealthRegen>
+				<ManaRegen>3</ManaRegen>
+      </Statistics>
+      <Mode>SR</Mode>
+      <Cost>930</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1028</d4p1:string>
+        <d4p1:string>1026</d4p1:string>
+				<d4p1:string>3096</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Oracle's Elixir</Name>
+      <ID>2042</ID>
+      <ImagePath>_2026_Arcane_Protection_Potion</ImagePath>
+      <Description>Grants 750 radius stealth detection to champion until death.</Description>
+      <Statistics />
+			<Mode>SR</Mode>
+      <Cost>400</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Consumables</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Oracle's Extract</Name>
+      <ID>2047</ID>
+      <ImagePath>_2047_OraclesExtract</ImagePath>
+      <Description>Click to Consume: Grants detection of nearby invisible units for up to 5 minutes or until your champion dies.</Description>
+      <Statistics />
+      <Mode>CS</Mode>
+      <Cost>250</Cost>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Overlord's Bloodmail</Name>
+      <ID>3084</ID>
+      <ImagePath>_3084_Overlord_s_Bloodmail</ImagePath>
+      <Description>+850 Health||Unique Passive: On kill or assist, heal 200 HP over 5 seconds.</Description>
+      <Statistics>
+        <Health>850</Health>
+      </Statistics>
+      <Mode>TT</Mode>
+      <Cost>980</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1011</d4p1:string>
+        <d4p1:string>1028</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Phage</Name>
+      <ID>3044</ID>
+      <ImagePath>_3044_Phage</ImagePath>
+      <Description>+200 Health|+20 Attack Damage||Unique Passive - Icy: Your basic attacks have a 25% chance to slow your target's Movement Speed by 30% for 2 seconds (20% slow for ranged attacks). </Description>
+      <Statistics>
+        <Damage>20</Damage>
+        <Health>200</Health>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>590</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1028</d4p1:string>
+        <d4p1:string>1036</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Phantom Dancer</Name>
+      <ID>3046</ID>
+      <ImagePath>_3046_Phantom_Dancer</ImagePath>
+      <Description>+50% Attack Speed|+30% Critical Strike Chance|+5% Movement Speed||Unique Passive: Your champion ignores unit collision. (A unit ignoring unit collision may walk through all units unhindered.) </Description>
+      <Statistics>
+        <AttackSpeed>0.5</AttackSpeed>
+        <CriticalStrikeChance>0.3</CriticalStrikeChance>
+        <PercentMovespeed>0.05</PercentMovespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>495</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1018</d4p1:string>
+        <d4p1:string>3086</d4p1:string>
+        <d4p1:string>1042</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>CriticalStrikeChance</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Movespeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Philosopher's Stone</Name>
+      <ID>3096</ID>
+      <ImagePath>_3062_Soul_Pendant</ImagePath>
+      <Description>+7 Health Regen per 5 seconds|+9 Mana Regen per 5 seconds||Unique Passive - Transmute: Gain an additional 5 Gold every 10 seconds. </Description>
+      <Statistics>
+        <HealthRegen>1.4</HealthRegen>
+        <ManaRegen>1.8</ManaRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>340</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1004</d4p1:string>
+        <d4p1:string>1006</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Pickaxe</Name>
+      <ID>1037</ID>
+      <ImagePath>_1037_Broadsword</ImagePath>
+      <Description>+25 Attack Damage</Description>
+      <Statistics>
+        <Damage>25</Damage>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>875</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Prospector's Blade</Name>
+      <ID>1062</ID>
+      <ImagePath>_1062_ProspectorsBlade</ImagePath>
+      <Description>+20 Damage|+5% Lifesteal||Unique Passive: +200 Health (does not stack with other Prospector items) </Description>
+      <Statistics>
+        <Damage>20</Damage>
+      </Statistics>
+      <Mode>CS</Mode>
+      <Cost>950</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Prospector's Ring</Name>
+      <ID>1063</ID>
+      <ImagePath>_1063_ProspectorsRing</ImagePath>
+      <Description>+30 Ability Power|+7 Mana Regen per 5 seconds||Unique Passive: +200 Health (does not stack with other Prospector items) </Description>
+      <Statistics>
+        <AbilityPower>40</AbilityPower>
+        <ManaRegen>2</ManaRegen>
+      </Statistics>
+      <Mode>CS</Mode>
+      <Cost>950</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Quicksilver Sash</Name>
+      <ID>3140</ID>
+      <ImagePath>_1008_Sash_of_Valor</ImagePath>
+      <Description>+48 Magic Resist||Unique Active: Removes all debuffs from your champion (90 second cooldown). </Description>
+      <Statistics>
+        <MagicResist>45</MagicResist>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>830</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1057</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Rabadon's Deathcap</Name>
+      <ID>3089</ID>
+      <ImagePath>_3089_Banksys_Wizard_Hat</ImagePath>
+      <Description>+120 Ability Power||Unique Passive: Increases Ability Power by 30%.</Description>
+      <Statistics>
+        <AbilityPower>120</AbilityPower>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>840</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1026</d4p1:string>
+        <d4p1:string>1058</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Randuin's Omen</Name>
+      <ID>3143</ID>
+      <ImagePath>_3143_Randuins_Omen</ImagePath>
+      <Description>+500 Health|+70 Armor||Unique Passive - Cold Steel: If you are hit by a basic attack, you slow the attacker's Attack Speed by 20% and their Movement Speed by 10% for 1.5 seconds.||Unique Active: Slows the Movement Speed of nearby enemy units by 35% for 2 seconds + 1 second for every 100 Armor and Magic Resistance you have - 60 second cooldown. </Description>
+      <Statistics>
+        <Armor>70</Armor>
+        <Health>500</Health>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>1000</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1011</d4p1:string>
+        <d4p1:string>3082</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ravenous Hydra</Name>
+      <ID>3074</ID>
+      <ImagePath>_3074_Ravenous_Hydra</ImagePath>
+      <Description>+75 Attack Damage|+15 Health Regen per 5 seconds|+10% Lifesteal||Passive: Damage dealt by this item works with Lifesteal.||Unique Passive - Cleave: Your attacks deal up to 60% of your Attack Damage to units around your target - decaying down to 20% near the edge.||Unique Active - Crescent: Deals up to 100% of your Attack Damage to units around you - decaying down to 60% near the edge - 10 second cooldown. </Description>
+      <Statistics>
+        <Damage>75</Damage>
+        <HealthRegen>3</HealthRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>400</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3077</d4p1:string>
+        <d4p1:string>1053</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Recurve Bow</Name>
+      <ID>1043</ID>
+      <ImagePath>_1043_Steel_Stiletto</ImagePath>
+      <Description>+30% Attack Speed</Description>
+      <Statistics>
+        <AttackSpeed>0.3</AttackSpeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>950</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Rejuvenation Bead</Name>
+      <ID>1006</ID>
+      <ImagePath>_1006_Rejuvenation_Bead</ImagePath>
+      <Description>+8 Health Regen per 5 seconds</Description>
+      <Statistics>
+        <HealthRegen>1</HealthRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>180</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Rod of Ages</Name>
+      <ID>3027</ID>
+      <ImagePath>_3027_Guinsoos_Rod_of_Oblivion</ImagePath>
+      <Description>+450 Health|+525 Mana|+60 Ability Power||Passive: Your champion gains 18 Health, 20 Mana, and 2 Ability Power every minute (up to 10 times).||Unique Passive: On leveling up, restores 250 Health and 200 Mana over 8 seconds.</Description>
+      <Statistics>
+        <AbilityPower>60</AbilityPower>
+        <Health>450</Health>
+        <Mana>450</Mana>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>740</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3010</d4p1:string>
+        <d4p1:string>1026</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ruby Crystal</Name>
+      <ID>1028</ID>
+      <ImagePath>_1028_Ruby_Sphere</ImagePath>
+      <Description>+180 Health</Description>
+      <Statistics>
+        <Health>180</Health>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>475</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Ruby Sightstone</Name>
+      <ID>2045</ID>
+      <ImagePath>_2049_Ruby_Ward</ImagePath>
+      <Description>+360 Health||Unique Passive - Ward Refresh: Starts with 5 charges and refills each time you visit your shop.||Unique Active - Ghost Ward: Consumes a charge to place an invisible ward that reveals the surrounding area for 3 minutes. You may have a maximum of 3 wards placed from this item at once. </Description>
+      <Statistics>
+        <Health>360</Health>
+      </Statistics>
+      <Mode>SR</Mode>
+      <Cost>125</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>2049</d4p1:string>
+        <d4p1:string>1028</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Consumables</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Runaan's Hurricane</Name>
+      <ID>3085</ID>
+      <ImagePath>_3085_Runaans_Hurricane</ImagePath>
+      <Description>+70% Attack Speed||Unique Passive: Your basic attacks fire minor bolts at 2 nearby targets, each dealing 10 + 50% of your Attack Damage. These apply on-hit effects. </Description>
+      <Statistics>
+        <AttackSpeed>0.7</AttackSpeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>1000</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1042</d4p1:string>
+        <d4p1:string>1043</d4p1:string>
+        <d4p1:string>1042</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Runic Bulwark</Name>
+      <ID>3107</ID>
+      <ImagePath>_3107_Runic_Bulwark</ImagePath>
+      <Description>+400 Health|+20 Armor|+30 Magic Resist||Unique Aura - Legion: Nearby allies gain 10 Armor, 30 Magic Resist and 10 Health Regen per 5. (Unique Auras with the same name don't stack.)</Description>
+      <Statistics>
+        <Armor>20</Armor>
+        <Health>400</Health>
+        <MagicResist>30</MagicResist>
+      </Statistics>
+      <Mode>SRCSPG</Mode>
+      <Cost>650</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1033</d4p1:string>
+        <d4p1:string>3105</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Aura</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Rylai's Crystal Scepter</Name>
+      <ID>3116</ID>
+      <ImagePath>_3116_Rylais_Sceptre</ImagePath>
+      <Description>+500 Health|+80 Ability Power||Unique Passive: Dealing spell damage slows the target's Movement Speed by 35% for 1.5 seconds (15% for multi-target and damage-over-time spells). </Description>
+      <Statistics>
+        <AbilityPower>80</AbilityPower>
+        <Health>500</Health>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>605</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1026</d4p1:string>
+        <d4p1:string>1052</d4p1:string>
+        <d4p1:string>1011</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sanguine Blade</Name>
+      <ID>3181</ID>
+      <ImagePath>_3181_SanguineBlade</ImagePath>
+      <Description>+60 Attack Damage|+15% Lifesteal||Unique Passive: Your basic attacks grant 6 Attack Damage and 1% Lifesteal for 4 seconds (effect stacks up to 5 times). </Description>
+      <Statistics>
+        <Damage>60</Damage>
+      </Statistics>
+      <Mode>TTCSPG</Mode>
+      <Cost>800</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1038</d4p1:string>
+        <d4p1:string>1053</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sapphire Crystal</Name>
+      <ID>1027</ID>
+      <ImagePath>_1027_Sapphire_Sphere</ImagePath>
+      <Description>+200 Mana</Description>
+      <Statistics>
+        <Mana>200</Mana>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>400</Cost>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+		<Item>
+			<Name>Seeker's Armguard</Name>
+			<ID>3191</ID>
+			<ImagePath>_3191_Seeker_s_Armguard</ImagePath>
+			<Description>+30 Armor|+25 Ability Power||Unique: Killing a unit grants 0.5 bonus armor and ability power. This bonus stacks up to 30 times.</Description>
+			<Statistics>
+				<AbilityPower>25</AbilityPower>
+				<Armor>30</Armor>
+			</Statistics>
+			<Mode>Any</Mode>
+			<Cost>125</Cost>
+			<RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<d4p1:string>1052</d4p1:string>
+				<d4p1:string>1029</d4p1:string>
+				<d4p1:string>1029</d4p1:string>
+			</RequiredItems>
+			<Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+			</Tags>
+			<UseResourceFile>true</UseResourceFile>
+		</Item>
+    <Item>
+      <Name>Seraph's Embrace</Name>
+      <ID>3040</ID>
+      <ImagePath>_3040_Seraphs_Embrace</ImagePath>
+      <Description>+1000 Mana|+60 Ability Power|+10 Mana Regen per 5 seconds||Unique Passive - Insight: Gain Ability Power equal to 3% of your Maximum Mana.||Unique Active - Mana Shield: Drains 25% of your current mana to shield yourself for an equal amount for 3 seconds -120 second cooldown. Transforms from Archangel's Staff at 750 Mana. </Description>
+      <Statistics>
+        <AbilityPower>60</AbilityPower>
+        <Mana>1000</Mana>
+        <ManaRegen>2</ManaRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>0</Cost>
+			<RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<d4p1:string>3003</d4p1:string>
+			</RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+		<Item>
+			<Name>Shard of True ice</Name>
+			<ID>3092</ID>
+			<ImagePath>_3092_Shard_Of_True_Ice</ImagePath>
+			<Description>+45 Ability Power||Unique Aura: Mana Warp - Nearby allied champions gain 6 mana regen per 5 seconds.||Unique Passive: Lucky Shadow - Gain an additional 4 gold every 10 seconds.||Unique Active: Surrounds an ally with a blizzard for 4 seconds that slows nearby enemy movement speed by 30%. 60 second cooldown.</Description>
+			<Statistics>
+				<AbilityPower>45</AbilityPower>
+			</Statistics>
+			<Mode>Any</Mode>
+			<Cost>535</Cost>
+			<RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<d4p1:string>3098</d4p1:string>
+				<d4p1:string>3037</d4p1:string>
+			</RequiredItems>
+			<Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Aura</d4p1:LolEnums.ItemTags>
+			</Tags>
+			<UseResourceFile>true</UseResourceFile>
+		</Item>
+    <Item>
+      <Name>Sheen</Name>
+      <ID>3057</ID>
+      <ImagePath>_3057_Sheen</ImagePath>
+      <Description>+250 Mana|+25 Ability Power||Unique Passive: After using an ability, your next basic attack deals bonus physical damage equal to your base Attack Damage (2 second cooldown). </Description>
+      <Statistics>
+        <AbilityPower>25</AbilityPower>
+        <Mana>200</Mana>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>425</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1027</d4p1:string>
+        <d4p1:string>1052</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Shurelya's Reverie</Name>
+      <ID>3069</ID>
+      <ImagePath>_3069_Shurelyas_Firecrest</ImagePath>
+      <Description>+250 Health|+10 Health Regen per 5 seconds|+10 Mana Regen per 5 seconds|+10% Cooldown Reduction||Unique Active: Nearby allies gain 40% Movement Speed for 3 seconds - 60 second cooldown. </Description>
+      <Statistics>
+        <Health>250</Health>
+        <HealthRegen>2</HealthRegen>
+        <ManaRegen>2</ManaRegen>
+				<Cooldown>.1</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>550</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3067</d4p1:string>
+        <d4p1:string>3096</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Movespeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sight Ward</Name>
+      <ID>2044</ID>
+      <ImagePath>_1020_Glowing_Orb</ImagePath>
+      <Description>Places an invisible ward with 1100 range. Lasts 3 minutes.</Description>
+      <Statistics />
+			<Mode>SR</Mode>
+      <Cost>75</Cost>
+      <MaxStacks>5</MaxStacks>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Consumables</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sightstone</Name>
+      <ID>2049</ID>
+      <ImagePath>_2049_Sightstone</ImagePath>
+      <Description>+180 Health||Unique Passive - Ward Refresh: Starts with 4 charges and refills each time you visit your shop.||Unique Active - Ghost Ward: Consumes a charge to place an invisible ward that reveals the surrounding area for 3 minutes. You may have a maximum of 2 wards placed from this item at once. </Description>
+      <Statistics>
+        <Health>180</Health>
+      </Statistics>
+      <Mode>SR</Mode>
+      <Cost>475</Cost>
+			<RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<d4p1:string>1028</d4p1:string>
+			</RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Consumables</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sorcerer's Shoes</Name>
+      <ID>3020</ID>
+      <ImagePath>_3020_Flamewalkers</ImagePath>
+      <Description>+15 Magic Penetration||Unique Passive - Enhanced Movement: +45 Movement Speed </Description>
+      <Statistics>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>750</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1001</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>MagicPen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sorcerer's Shoes - Enchantment: Alacrity</Name>
+      <ID>3259</ID>
+      <ImagePath>_3020_Flamewalkers_E</ImagePath>
+      <Description>Enchants these boots to have the Alacrity bonus.||Unique Passive - Alacrity: +15 Movement Speed</Description>
+      <Statistics>
+        <Movespeed>60</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3020</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sorcerer's Shoes - Enchantment: Captain</Name>
+      <ID>3256</ID>
+      <ImagePath>_3020_Flamewalkers_B</ImagePath>
+      <Description>Enchants these boots to have the Captain bonus.||Unique Passive - Captain: Allied champions running towards you gain a 8% movement speed boost.  Nearby minions gain 25% additional movement speed.</Description>
+      <Statistics>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>750</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3020</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sorcerer's Shoes - Enchantment: Distortion</Name>
+      <ID>3258</ID>
+      <ImagePath>_3020_Flamewalkers_D</ImagePath>
+      <Description>Enchants these boots to have the Distortion bonus.||Unique Passive - Distortion: Your Teleport, Flash and Ghost summoner spell cooldowns are reduced by 25%.</Description>
+      <Statistics>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3020</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sorcerer's Shoes - Enchantment: Furor</Name>
+      <ID>3257</ID>
+      <ImagePath>_3020_Flamewalkers_C</ImagePath>
+      <Description>Enchants these boots to have the Furor bonus.||Unique Passive - Furor: Whenever you deal damage with a single target attack or spell, you gain 12% bonus movement speed that decays over 2 seconds.</Description>
+      <Statistics>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>650</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3020</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sorcerer's Shoes - Enchantment: Homeguard</Name>
+      <ID>3255</ID>
+      <ImagePath>_3020_Flamewalkers_A</ImagePath>
+      <Description>Enchants these boots to have the Homeguard bonus.||Unique Passive - Homeguard: When you are at fountain and have been out of combat for 8 seconds you gain full health, mana and a 200% movement speed boost that decays over 8 seconds. You lose the movement speed when you enter combat.</Description>
+      <Statistics>
+        <Movespeed>45</Movespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <NotInStore>true</NotInStore>
+      <Cost>475</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3020</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>EnchantedBoots</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Boots</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Spirit of the Ancient Golem</Name>
+      <ID>3207</ID>
+      <ImagePath>_3207_SoulEaterGolem</ImagePath>
+      <Description>+500 Health|+30 Armor|+14 Health Regen per 5 seconds|+7 Mana Regen per 5 seconds||Unique Passive - Butcher: Damage dealt to monsters increased by 25%.||Unique Passive - Tenacity: The durations of stuns, slows, taunts, fears, silences, blinds, and immobilizes are reduced by 35%.</Description>
+      <Statistics>
+        <Armor>30</Armor>
+        <Health>500</Health>
+        <HealthRegen>2.8</HealthRegen>
+        <ManaRegen>1.4</ManaRegen>
+      </Statistics>
+      <Mode>SR</Mode>
+      <Cost>600</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1080</d4p1:string>
+        <d4p1:string>1011</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Tenacity</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Jungle</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Spirit of the Elder Lizard</Name>
+      <ID>3209</ID>
+      <ImagePath>_3209_SoulEaterLizard</ImagePath>
+      <Description>+50 Attack Damage|+14 Health Regen per 5 seconds|+7 Mana Regen per 5 seconds|+10% cooldown reduction||Unique Passive - Butcher: Damage dealt to monsters increased by 25%.||Unique Passive - Incinerate: Basic attacks and non-periodic spell damage burn the target for 15-50 (based on level) true damage over 3 seconds. </Description>
+      <Statistics>
+        <Damage>50</Damage>
+        <HealthRegen>2.8</HealthRegen>
+        <ManaRegen>1.4</ManaRegen>
+				<Cooldown>.1</Cooldown>
+      </Statistics>
+      <Mode>SR</Mode>
+      <Cost>725</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1080</d4p1:string>
+        <d4p1:string>1037</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Jungle</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Spirit of the Spectral Wraith</Name>
+      <ID>3206</ID>
+      <ImagePath>_3206_SoulEaterWraith</ImagePath>
+      <Description>+40 Ability Power|+10 Mana Regen per 5 seconds|+10% Cooldown Reduction||Unique Passive: +20% Spell Vamp||Unique Passive: +10% Cooldown Reduction ||Unique Passive - Butcher: Damage dealt to monsters increased by 25%.||Unique Passive: Reduces the cooldown on Smite by 20%.</Description>
+      <Statistics>
+        <AbilityPower>40</AbilityPower>
+        <ManaRegen>2</ManaRegen>
+				<Cooldown>.1</Cooldown>
+      </Statistics>
+      <Mode>SR</Mode>
+      <Cost>100</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1080</d4p1:string>
+        <d4p1:string>3145</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>SpellVamp</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Jungle</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Spirit Stone</Name>
+      <ID>1080</ID>
+      <ImagePath>_1080_SoulEater</ImagePath>
+      <Description>+14 Health Regen per 5 seconds|+7 Mana Regen per 5 seconds||Unique Passive - Butcher: Damage dealt to monsters increased by 20%.||Unique Passive - Rend: Basic attacks deal 10 bonus true damage to monsters. </Description>
+      <Statistics>
+        <HealthRegen>2.8</HealthRegen>
+        <ManaRegen>1.4</ManaRegen>
+      </Statistics>
+      <Mode>SRTTCS</Mode>
+      <Cost>40</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1039</d4p1:string>
+        <d4p1:string>1004</d4p1:string>
+        <d4p1:string>1006</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Jungle</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Spirit Visage</Name>
+      <ID>3065</ID>
+      <ImagePath>_3065_Spirit_Visage</ImagePath>
+      <Description>+50 Magic Resist|+500 Health|+20% Cooldown Reduction||Unique Passive: Increases your healing and regeneration effects on yourself by 20%. </Description>
+      <Statistics>
+        <Health>500</Health>
+        <MagicResist>50</MagicResist>
+				<Cooldown>.2</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>540</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3067</d4p1:string>
+        <d4p1:string>1057</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Statikk Shiv</Name>
+      <ID>3087</ID>
+      <ImagePath>_3087_Statikk_Shiv</ImagePath>
+      <Description>+40% Attack Speed|+20% Critical Strike Chance|+6% Movement Speed||Unique Passive: Moving and attacking build Static Charges. At 100 Charges, your next attack expends the Charges to deal 100 magic damage to up to 4 targets. This damage can critically strike. </Description>
+      <Statistics>
+        <AttackSpeed>0.4</AttackSpeed>
+        <CriticalStrikeChance>0.2</CriticalStrikeChance>
+        <PercentMovespeed>0.06</PercentMovespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>525</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3086</d4p1:string>
+        <d4p1:string>3093</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>CriticalStrikeChance</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Movespeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Stinger</Name>
+      <ID>3101</ID>
+      <ImagePath>_059_Sheen</ImagePath>
+      <Description>+40% Attack Speed||Unique Passive: +10% Cooldown Reduction </Description>
+      <Statistics>
+        <AttackSpeed>0.4</AttackSpeed>
+				<Cooldown>.1</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>450</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1042</d4p1:string>
+        <d4p1:string>1042</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sunfire Cape</Name>
+      <ID>3068</ID>
+      <ImagePath>_3068_Sunfire_Cape</ImagePath>
+      <Description>+450 Health|+45 Armor||Unique Passive: Deals 40 magic damage per second to nearby enemies. </Description>
+      <Statistics>
+        <Armor>45</Armor>
+        <Health>450</Health>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>930</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1031</d4p1:string>
+        <d4p1:string>1011</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sword of the Divine</Name>
+      <ID>3131</ID>
+      <ImagePath>_3084_Widowmaker</ImagePath>
+      <Description>+45% Attack Speed||Passive: This item does not grant any Attack Speed while on cooldown. Champion kills reduce the current cooldown by 50%.||Unique Active: Gain 100% Attack Speed and 100% Critical Strike Chance for 3 seconds or 3 critical strikes - 60 second cooldown. </Description>
+      <Statistics />
+      <Mode>Any</Mode>
+      <Cost>850</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1043</d4p1:string>
+        <d4p1:string>1042</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Sword of the Occult</Name>
+      <ID>3141</ID>
+      <ImagePath>_3034_Kenyus_Kukri</ImagePath>
+      <Description>+10 Attack Damage||Unique Passive: Your champion gains 5 Attack Damage per stack, receiving 2 stacks for a kill or 1 stack for an assist (stacks up to 20). You lose a third of your stacks on death. At 20 stacks, your champion's Movement Speed is increased by 15%. </Description>
+      <Statistics>
+        <Damage>10</Damage>
+      </Statistics>
+			<Mode>SR</Mode>
+      <Cost>800</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1036</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Tear of the Goddess</Name>
+      <ID>3070</ID>
+      <ImagePath>_3070_Tear_of_the_Goddess</ImagePath>
+      <Description>+250 Mana|+7 Mana Regen per 5 seconds||Unique Passive - Mana Charge: Each time you cast a spell or spend Mana, your maximum Mana increases by 4 (3 second cooldown). Bonus caps at +750 Mana. (Unique Passives with the same name don't stack.)</Description>
+      <Statistics>
+        <Mana>250</Mana>
+        <ManaRegen>1.4</ManaRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>120</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1027</d4p1:string>
+        <d4p1:string>1004</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>ManaRegen</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>The Black Cleaver</Name>
+      <ID>3071</ID>
+      <ImagePath>_3071_The_Black_Cleaver</ImagePath>
+      <Description>+200 Health|+50 Attack Damage|+10% Cooldown Reduction||Unique: +10 Armor Penetration||Passive: Dealing physical damage to an enemy champion reduces their Armor by 6.25% for 4 seconds. This effect stacks up to 4 times. </Description>
+      <Statistics>
+        <Damage>50</Damage>
+        <Health>200</Health>
+				<Cooldown>.1</Cooldown>
+				<ArmorPen>10</ArmorPen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>1188</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3134</d4p1:string>
+        <d4p1:string>1028</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>ArmorPen</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>The Bloodthirster</Name>
+      <ID>3072</ID>
+      <ImagePath>_3072_The_Bloodthirster</ImagePath>
+      <Description>+60 Attack Damage|+12% Lifesteal||Passive: Gain bonus +1 Attack Damage and +0.20% Lifesteal per kill. Bonuses cap at +40 Attack Damage and +8% Lifesteal. Half of bonuses are lost upon death. </Description>
+      <Statistics>
+        <Damage>70</Damage>
+      </Statistics>
+			<Mode>SR</Mode>
+      <Cost>850</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1038</d4p1:string>
+        <d4p1:string>1053</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>The Brutalizer</Name>
+      <ID>3134</ID>
+      <ImagePath>_1034_Big_Stick</ImagePath>
+      <Description>+25 Attack Damage||Unique Passive: +10% Cooldown Reduction||Unique Passive: +10 Armor Penetration (Armor Penetration allows you to deal more physical damage to high Armored targets. % Armor Penetration is applied before Flat Armor Penetration when calculating damage.) </Description>
+      <Statistics>
+        <Damage>25</Damage>
+				<Cooldown>.1</Cooldown>
+				<ArmorPen>10</ArmorPen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>537</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1036</d4p1:string>
+        <d4p1:string>1036</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>ArmorPen</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>The Lightbringer</Name>
+      <ID>3185</ID>
+      <ImagePath>_3185_Lightbringer</ImagePath>
+      <Description>+50 Attack Damage 20 Armor 12% Lifesteal||Unique passive - Vanquish: Basic attacks have a 20% chance to deal 100 bonus magic damage (doubled for non-champions)||Unique passive - Trap Detection: Nearby stealthed enemy traps are revealed||Unique active: Covers a target area in a stealth-detecting mist that grants vision for 10 seconds (60 second cooldown) </Description>
+      <Statistics>
+        <AttackSpeed>0.4</AttackSpeed>
+        <Damage>20</Damage>
+      </Statistics>
+      <Mode>CS</Mode>
+      <Cost>245</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1043</d4p1:string>
+        <d4p1:string>1036</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Thornmail</Name>
+      <ID>3075</ID>
+      <ImagePath>_3075_Thornmail</ImagePath>
+      <Description>+100 Armor||Unique Passive: On being hit by basic attacks, returns 30% of damage taken as magic damage.</Description>
+      <Statistics>
+        <Armor>100</Armor>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>1180</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1029</d4p1:string>
+        <d4p1:string>1031</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Tiamat</Name>
+      <ID>3077</ID>
+      <ImagePath>_3077_Tiamat</ImagePath>
+      <Description>+50 Attack Damage|+15 Health Regen per 5 seconds||UNIQUE Passive - Cleave: Your attacks deal up to 60% of your Attack Damage to units around your target - decaying down to 20% near the edge. UNIQUE Active - Crescent: Deals up to 100% of your Attack Damage to units around you - decaying down to 60% near the edge - 10 second cooldown.</Description>
+      <Statistics>
+        <Damage>50</Damage>
+        <HealthRegen>3</HealthRegen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>665</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1037</d4p1:string>
+        <d4p1:string>1036</d4p1:string>
+        <d4p1:string>1006</d4p1:string>
+        <d4p1:string>1006</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>HealthRegen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <!--<Item>
+      <Name>Total Biscuit of Rejuvination</Name>
+      <ID>2009</ID>
+      <ImagePath>_2009_Mini_Pot</ImagePath>
+      <Description>TBDDesc</Description>
+      <Statistics />
+      <Mode>Any</Mode>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>-->
+    <Item>
+      <Name>Trinity Force</Name>
+      <ID>3078</ID>
+      <ImagePath>_3078_Trinity_Force</ImagePath>
+      <Description>+30 Attack Damage|+30 Ability Power|+30% Attack Speed|+10% Critical Strike Chance|+8% Movement Speed|+250 Health|+200 Mana||Unique Passive - Icy: Your basic attacks have a 25% chance to slow your target's Movement Speed by 30% for 2 seconds (20% for ranged.)||Unique Passive - Spellblade: After using an ability, your next basic attack deals bonus physical damage equal to 150% of your base Attack Damage (2 second cooldown). </Description>
+      <Statistics>
+        <AbilityPower>30</AbilityPower>
+        <AttackSpeed>0.3</AttackSpeed>
+        <CriticalStrikeChance>0.1</CriticalStrikeChance>
+        <Damage>30</Damage>
+        <Health>250</Health>
+        <Mana>200</Mana>
+        <PercentMovespeed>0.08</PercentMovespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>3</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3086</d4p1:string>
+        <d4p1:string>3057</d4p1:string>
+        <d4p1:string>3044</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>CriticalStrikeChance</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Mana</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Movespeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+		<Item>
+			<Name>Twin Shadows</Name>
+			<ID>3023</ID>
+			<ImagePath>_3023_Twin_Shadows</ImagePath>
+			<Description>+40 Ability Power|+40 Magic Resistance|+6% Movement Speed||Unique Active: Hunt - Summons 2 invulnerable ghosts for 6 seconds to seek the two nearest enemy champions. If they touch an enemy champion, they slow their movement speed by 40% and reveal them for 2.5 seconds. 120 second cooldown.</Description>
+			<Statistics>
+				<AbilityPower>40</AbilityPower>
+				<MagicResist>40</MagicResist>
+				<PercentMovespeed>0.06</PercentMovespeed>
+			</Statistics>
+			<Mode>Any</Mode>
+			<Cost>735</Cost>
+			<RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<d4p1:string>3098</d4p1:string>
+				<d4p1:string>1033</d4p1:string>
+			</RequiredItems>
+			<Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Movespeed</d4p1:LolEnums.ItemTags>
+			</Tags>
+			<UseResourceFile>true</UseResourceFile>
+		</Item>
+    <Item>
+      <Name>Vampiric Scepter</Name>
+      <ID>1053</ID>
+      <ImagePath>_3054_Scepter_of_Death</ImagePath>
+      <Description>+10 Attack Damage|+10% Lifesteal </Description>
+      <Statistics>
+        <Damage>10</Damage>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>400</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1036</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Vision Ward</Name>
+      <ID>2043</ID>
+      <ImagePath>_096_Eye_of_the_Observer</ImagePath>
+      <Description>Places an invisible ward with 1000 range Magical Sight (can see invisible units). Lasts 3 minutes.</Description>
+      <Statistics />
+			<Mode>SR</Mode>
+      <Cost>125</Cost>
+      <MaxStacks>5</MaxStacks>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Consumables</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Void Staff</Name>
+      <ID>3135</ID>
+      <ImagePath>_073_Zettas_Mana_Stick</ImagePath>
+      <Description>+70 Ability Power||Unique Passive: +35% Magic Penetration </Description>
+      <Statistics>
+        <AbilityPower>70</AbilityPower>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>1000</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1026</d4p1:string>
+        <d4p1:string>1052</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>MagicPen</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Warden's Mail</Name>
+      <ID>3082</ID>
+      <ImagePath>_3082_Wardens_Mail</ImagePath>
+      <Description>+50 Armor||Unique Passive - Cold Steel: If you are hit by a basic attack, you slow the attacker's Attack Speed by 20% for 2 seconds. (Unique Passives with the same name don't stack.)</Description>
+      <Statistics>
+        <Armor>50</Armor>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>500</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1029</d4p1:string>
+        <d4p1:string>1029</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Warmog's Armor</Name>
+      <ID>3083</ID>
+      <ImagePath>_3083_Warmog_The_Living_Armor</ImagePath>
+      <Description>+1000 Health||Unique Passive: Restores 1% of your maxmium Health every 5 seconds. </Description>
+      <Statistics>
+        <Health>1000</Health>
+      </Statistics>
+			<Mode>SRPG</Mode>
+      <Cost>995</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1011</d4p1:string>
+        <d4p1:string>1028</d4p1:string>
+        <d4p1:string>1006</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Will of the Ancients</Name>
+      <ID>3152</ID>
+      <ImagePath>_2008_Tome_of_Combat_Mastery</ImagePath>
+      <Description>+50 Ability Power||Unique Aura: Grants nearby allied champions 30 Ability Power and 20% Spell Vamp. </Description>
+      <Statistics>
+        <AbilityPower>50</AbilityPower>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>440</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1026</d4p1:string>
+        <d4p1:string>3145</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Aura</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>SpellVamp</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Wit's End</Name>
+      <ID>3091</ID>
+      <ImagePath>_3091_Wits_End</ImagePath>
+      <Description>+40% Attack Speed|+25 Magic Resist||Unique Passive: Your basic attacks deal 42 bonus magic damage.||Unique Passive: Your basic attacks increase your Magic Resist by 5 for 5 seconds (effect stacks up to 4 times). </Description>
+      <Statistics>
+        <AttackSpeed>0.4</AttackSpeed>
+        <MagicResist>25</MagicResist>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>850</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1043</d4p1:string>
+        <d4p1:string>1033</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>MagicResist</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Wooglet's Witchcap</Name>
+      <ID>3090</ID>
+      <ImagePath>_3090_Wooglets_Witchcap</ImagePath>
+      <Description>+100 Ability Power|+40 Armor||Unique Passive: Increases Ability Power by 25%||Unique Active: Places your champion into Stasis for 2.5 seconds, rendering you invulnerable and untargetable but unable to take any action (90 second cooldown)</Description>
+      <Statistics>
+        <AbilityPower>100</AbilityPower>
+        <Armor>50</Armor>
+      </Statistics>
+      <Mode>TTCS</Mode>
+      <Cost>1200</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1031</d4p1:string>
+        <d4p1:string>1058</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Wriggle's Lantern</Name>
+      <ID>3154</ID>
+      <ImagePath>_3154_WriggleLantern</ImagePath>
+      <Description>+23 Damage|+30 Armor|+12% Lifesteal||Unique Passive: Your basic attacks against minions and monsters have a 20% chance to deal 425 bonus magic damage.||Unique Active: Places an invisible Sight Ward that reveals the surrounding area for 3 minutes (3 minute cooldown). </Description>
+      <Statistics>
+        <Armor>30</Armor>
+        <Damage>15</Damage>
+      </Statistics>
+			<Mode>SR</Mode>
+      <Cost>100</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3106</d4p1:string>
+        <d4p1:string>1053</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Jungle</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Youmuu's Ghostblade</Name>
+      <ID>3142</ID>
+      <ImagePath>_3142_Youmus_Spectral_Blade</ImagePath>
+      <Description>+30 Attack Damage|+15% Critical Strike Chance|+10% Cooldown Reduction||Unique: +20 Armor Penetration||Unique Active: Gain 20% Movement Speed and 40% Attack Speed for 6 seconds (4 seconds if you're ranged) - 45 second cooldown. </Description>
+      <Statistics>
+        <CriticalStrikeChance>0.15</CriticalStrikeChance>
+        <Damage>30</Damage>
+				<Cooldown>.1</Cooldown>
+				<ArmorPen>20</ArmorPen>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>563</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3093</d4p1:string>
+        <d4p1:string>3134</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>CriticalStrikeChance</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>ArmorPen</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Zeal</Name>
+      <ID>3086</ID>
+      <ImagePath>_3058_Sheen_and_Phage</ImagePath>
+      <Description>+18% Attack Speed|+10% Critical Strike Chance|+5% Movement Speed </Description>
+      <Statistics>
+        <AttackSpeed>0.18</AttackSpeed>
+        <CriticalStrikeChance>0.1</CriticalStrikeChance>
+        <PercentMovespeed>0.05</PercentMovespeed>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>375</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>1051</d4p1:string>
+        <d4p1:string>1042</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>CriticalStrikeChance</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Movespeed</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+    <Item>
+      <Name>Zeke's Herald</Name>
+      <ID>3050</ID>
+      <ImagePath>_3050_Rallying_Banner</ImagePath>
+      <Description>+250 Health|+20% Cooldown Reduction||Unique Aura: Nearby allied champions gain 10% Lifesteal and 20 Attack Damage. </Description>
+      <Statistics>
+        <Health>250</Health>
+				<Cooldown>.2</Cooldown>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>900</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3067</d4p1:string>
+        <d4p1:string>1053</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>Health</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Aura</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Lifesteal</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+		<Item>
+			<Name>Zephyr</Name>
+			<ID>3172</ID>
+			<ImagePath>_3172_Zephyr</ImagePath>
+			<Description>+20 attack damage|+50% attack speed|+10% movement speed|+10% cooldown reduction||Unique Passive - Tenacity: The duration of stuns, slows, taunts, fears, silences, blinds and immobilizes are reduced by 35%.</Description>
+			<Statistics>
+				<Damage>20</Damage>
+				<AttackSpeed>.5</AttackSpeed>
+				<Movespeed>.1</Movespeed>
+				<Cooldown>.1</Cooldown>
+			</Statistics>
+			<Mode>Any</Mode>
+			<Cost>1200</Cost>
+			<RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<d4p1:string>3101</d4p1:string>
+				<d4p1:string>1036</d4p1:string>
+			</RequiredItems>
+			<Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+				<d4p1:LolEnums.ItemTags>Damage</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>AttackSpeed</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Cooldown</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Movespeed</d4p1:LolEnums.ItemTags>
+				<d4p1:LolEnums.ItemTags>Tenacity</d4p1:LolEnums.ItemTags>
+			</Tags>
+			<UseResourceFile>true</UseResourceFile>
+		</Item>
+    <Item>
+      <Name>Zhonya's Hourglass</Name>
+      <ID>3157</ID>
+      <ImagePath>_3157_Zhonyas_Hourglass</ImagePath>
+      <Description>+120 Ability Power|+50 Armor||Unique Active: Places your champion into Stasis for 2 seconds, rendering you invulnerable and untargetable but unable to take any actions (90 second cooldown). </Description>
+      <Statistics>
+        <AbilityPower>120</AbilityPower>
+        <Armor>50</Armor>
+      </Statistics>
+      <Mode>Any</Mode>
+      <Cost>650</Cost>
+      <RequiredItems xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>3191</d4p1:string>
+        <d4p1:string>1058</d4p1:string>
+      </RequiredItems>
+      <Tags xmlns:d4p1="http://schemas.datacontract.org/2004/07/LoLLibrary">
+        <d4p1:LolEnums.ItemTags>AbilityPower</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Armor</d4p1:LolEnums.ItemTags>
+        <d4p1:LolEnums.ItemTags>Activateable</d4p1:LolEnums.ItemTags>
+      </Tags>
+    	<UseResourceFile>true</UseResourceFile>
+    </Item>
+  </Items>
+</ItemFile>
